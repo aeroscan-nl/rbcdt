@@ -1,0 +1,15 @@
+[package]
+name = "rbcdt"
+version = "0.1.0"
+edition = "2021"
+authors = ["Bram Buurlage <bram@aeroscan.nl>"]
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+magnus = "0.4"
+cdt = "0.1.0"
+earcut = "0.4.1"
+spade = "2.6.0"

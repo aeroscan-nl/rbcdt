@@ -9,7 +9,7 @@ publish = false
 crate-type = ["cdylib"]
 
 [dependencies]
-magnus = "0.4"
+magnus = "0.8.2"
 cdt = "0.1.0"
 earcut = "0.4.1"
 spade = "2.6.0"
